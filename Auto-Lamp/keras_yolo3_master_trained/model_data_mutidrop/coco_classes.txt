@@ -1,0 +1,4 @@
+red drop
+green drop
+yellow drop
+droplet

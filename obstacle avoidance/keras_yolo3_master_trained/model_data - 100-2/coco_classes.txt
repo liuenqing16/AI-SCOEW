@@ -1,0 +1,5 @@
+DI_water
+yellow_droplet
+green_droplet
+orange_droplet
+cyan_droplet

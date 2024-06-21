@@ -1,0 +1,7 @@
+the start is : (165, 268)
+the start size is16
+the block is :
+(297, 285)
+the block size is18
+the block is :(297, 285)
+the destination is : (392, 285)
