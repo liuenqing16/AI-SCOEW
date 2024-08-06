@@ -12,7 +12,7 @@ import re
 import os
 from thorlabs_tsi_sdk import tl_camera
 from thorlabs_tsi_sdk import tl_mono_to_color_processor
-# dir_project = os.path.abspath(os.path.join(os.getcwd(), "../.."))  # 获取上上级目录
+# dir_project = os.path.abspath(os.path.join(os.getcwd(), "../.."))  
 from numpy.core.defchararray import strip
 
 
@@ -160,10 +160,9 @@ class AI_droplet():
 
 
     def data_saving(self, radius, start, terminal, Block, best_path, path):
-        rusults = 'D:\install\DLAM-AI\\result'  # yolo批量处理结果的目录
+        rusults = 'D:\install\DLAM-AI\\result' 
         # objects_data = 'E:\liuenqing\ML\keras-yolo3-master\keras-yolo3-master\single_droplets\mAP-master\input\detection-results'  # detectnion-results目录
 
-        # 创建记录检测结果的文件
         txt_path = rusults + '/best_path.txt'
         txt_objects = rusults + '/objects.txt'  # hdf5
         path_file = open(txt_path, 'w')
