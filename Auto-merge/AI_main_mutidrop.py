@@ -85,10 +85,10 @@ def get_target(terminal):
 target = get_target(terminal)
 
 def data_saving():
-    rusults = 'D:\install\DLAM-feedback\\result'  # yolo批量处理结果的目录
+    rusults = 'D:\install\DLAM-feedback\\result' 
     # objects_data = 'E:\liuenqing\ML\keras-yolo3-master\keras-yolo3-master\single_droplets\mAP-master\input\detection-results'  # detectnion-results目录
 
-    # 创建记录检测结果的文件
+  
     txt_path = rusults + '/result.txt'
     path_file = open(txt_path, 'w')
     path_file.write('the droplet size  is ' + str(radius) + '\n' + 'the droplet is at' + str(begin) + '\n' + 'the terminal is at' + str(target))
